@@ -19,7 +19,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //RecyclerView
-    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.interpolator:interpolator:1.0.0'
 }
 
