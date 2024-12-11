@@ -98,6 +98,7 @@ public class FastScroller {
         int TEXT_BOUNDS = 0;
         int FONT_METRICS = 1;
     }
+    @Retention(SOURCE)
     @IntDef({PopupPosition.ADJACENT, PopupPosition.CENTER})
     public @interface PopupPosition {
         int ADJACENT = 0;
