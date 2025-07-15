@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 35
-    buildToolsVersion = "35.0.0"
-    namespace "com.simplecityapps.recyclerview_fastscroll"
+    compileSdk = 35
+    buildToolsVersion = "35.0.1"
+    namespace = "com.simplecityapps.recyclerview_fastscroll"
 
     defaultConfig {
         minSdkVersion 14
