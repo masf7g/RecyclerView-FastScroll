@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk = 35
-    buildToolsVersion = "35.0.1"
+    compileSdk = 36
+    buildToolsVersion = '36.1.0'
     namespace = "com.simplecityapps.recyclerview_fastscroll"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 21
         versionCode 18
         versionName "2.0.0-masf"
     }
@@ -17,7 +17,7 @@ android {
     }
 
     lintOptions {
-        abortOnError false
+        abortOnError = false
     }
 }
 
